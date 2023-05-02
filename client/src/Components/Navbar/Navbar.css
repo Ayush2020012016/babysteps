@@ -1,0 +1,51 @@
+.navbarMasterContainer{
+background-color: white;
+height: 80px;
+}
+
+.navbarContainer{
+    margin: 0 10%;
+    padding: 5px 0;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}   
+.navbarHeader{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.navbarName{
+    font-size: 16px;
+    font-weight: 800;
+}
+.navbarItems{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbarItem{
+    margin-left: 20px;
+    font-size: 14px;
+    padding: 30px 16px;
+    color: #6e6d7a;
+    font-weight: 500;
+}
+.navbarButton button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    text-transform: uppercase;
+    background-color: #ff69b4;
+    color: #ffffff;
+    font-weight: bold;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+    transition: all 0.3s ease;
+    
+}
+.navbarButton button:hover{
+    cursor: pointer;
+    background-color: #ffb6c1;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+}

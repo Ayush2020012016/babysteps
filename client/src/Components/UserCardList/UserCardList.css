@@ -1,0 +1,68 @@
+.userCard{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 10px;
+  width: 280px;
+  font-family: Arial, sans-serif;
+}
+.userHeader{
+  background-color: white;
+  padding: 14px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.imgContainer{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
+.userHeader img{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.userName{
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 12px;
+}
+.userNameuser{
+  font-size: 16px;
+  font-weight: normal;
+  margin-top: 6px;
+}
+
+.userContent{
+  padding: 14px;
+  background-color: #f2f2f2;
+  border-bottom-left-radius: 14px;
+  border-bottom-right-radius: 14px;
+}
+.userItem{
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+.userLabel{
+  display: inline-block;
+  font-weight: bold;
+  width: 100px;
+}
+.userBtn{
+  display: block;
+  width: 100%;
+  margin-top: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #2196f3;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.userBtn:hover {
+  background-color: #0c7cd5;
+}

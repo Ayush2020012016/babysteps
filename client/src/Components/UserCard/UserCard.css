@@ -1,0 +1,83 @@
+.userCard-Container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #0c7cd5;
+}
+.user-Card{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 10px;
+  width: 30vw;
+  height: 70vh;
+  font-family: Arial, sans-serif;
+  background-color: white;
+  position: relative;
+}
+.user-Header{
+  background-color: white;
+  padding: 14px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.img-Container{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
+.user-Header img{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.user-Name{
+  font-size: 48px;
+  font-weight: bold;
+  margin-top: 24px;
+}
+.user-Nameuser{
+  font-size: 16px;
+  font-weight: normal;
+  margin-top: 6px;
+}
+
+.user-Content{
+  padding: 14px;
+  background-color: #f2f2f2;
+  border-bottom-left-radius: 14px;
+  border-bottom-right-radius: 14px;
+  overflow: scroll;
+  height: 300px;
+}
+.user-Item{
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+.userLabel{
+  display: inline-block;
+  font-weight: bold;
+  width: 100px;
+}
+.user-Btn{
+  display: block;
+  position: absolute;
+  bottom: 10px;
+  width: 95%;
+  margin-top: 32px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #2196f3;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.user-Btn:hover {
+  background-color: #0c7cd5;
+}

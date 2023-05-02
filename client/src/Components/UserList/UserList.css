@@ -1,0 +1,24 @@
+.userlistMasterContainer{
+    margin: 0 5%;
+    margin-top: 20px;
+    
+}
+.userlistContainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(100px, 300px));
+    gap: 10px;
+    justify-content: center;
+}
+.userlistContainer > div{
+    justify-self: center;
+}
+.userlistloader{
+    text-align: center;
+}
+
+/* @media (max-width:768px){
+    .userlistContainer{
+        grid-template-columns: repeat(auto-fill,minmax(100px, 140px));
+
+    }
+} */

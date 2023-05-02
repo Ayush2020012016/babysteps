@@ -1,0 +1,19 @@
+1. add search bar component --done
+2. add the fetch code in usercard and usercard --done
+3. userlist background. --done
+4. routes --done
+5. add pagination --done
+6. styling usercard 
+7. add loader. --done
+8. add search by functionality --done
+9. designing -- 
+   card  --doing
+   how component look.
+
+ div > 
+        navbar
+        div >
+           searchbar
+           userlist
+           pagination 
+        
